@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+  <title>Joshua Ademuyiwa | Home</title>
+  <style>
+    * {
+      margin: 0;
+    }
+    body {
+      text-align: center;
+      background-color: grey;
+      font-family: helvetica;
+    }
+    h2 {
+      font-size: 36px;
+    }
+    p {
+      font-size: 22px;
+    }
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+       background: red;
+       color: white;
+    }
+    img {
+      /*padding-right: 200px;*/
+    }
+    nav {
+      width: 100%;
+      height: 60px;
+      background-color: #FFFFFF;
+      /*margin: 0 auto;*/
+    }
+    nav h1 {
+      font-family: 'Shadows Into Light', cursive;
+      color: #222;
+      font-size: 30px;
+      line-height: 50px;
+      float: left;
+    } 
+    nav ul {
+      float: left;
+    }
+    nav ul li {
+      float: left;
+      display: block;
+      padding: 17px 10px 0px 20px;
+      font-size: 16px;
+      text-align: center;
+
+    }
+    nav ul li a {
+      color: #222;
+      text-decoration: none;
+
+    }
+    nav ul li a:hover:not(.active) {
+      background-color: #ECDADA;
+    }
+    nav ul li a.active{
+      background-color: grey;
+      color: #FFFFFF;
+      padding: 5px 5px;
+      border-radius: 4px;
+    }
+    .content_page {
+      background-color: grey;
+      width: 100%;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h1>Joshua Ademuyiwa</h1>
+    <ul>
+      <li><a class="active" href="Home.html">Home</a></li>
+      <li><a href="work.html">Work</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="content_page">
+  <img src="profile_image.png">
+  <h2>Joshua Ademuyiwa</h2><br><br>
+  <p>Hi! I'm Joshua, a Lagos-based digital marketer.<br> Sign up for my weekly newsletter.</p><br>
+  <input type="email" placeholder="Your email" required="">
+  <input type="submit">
+</div>
+</body>
